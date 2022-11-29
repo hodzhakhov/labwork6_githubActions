@@ -1,0 +1,10 @@
+^D:\STUDYLAB\BASICSPROG\LABWORK2-HODZHAKHOV\BIN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/StudyLab/BasicsProg/labwork2-hodzhakhov -BD:/StudyLab/BasicsProg/labwork2-hodzhakhov --check-stamp-file D:/StudyLab/BasicsProg/labwork2-hodzhakhov/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

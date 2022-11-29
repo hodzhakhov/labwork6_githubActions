@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\StudyLab\BasicsProg\labwork2-hodzhakhov\tests\number_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\StudyLab\BasicsProg\labwork2-hodzhakhov\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{409D3D74-5A35-3C83-AAAB-6BA224788044}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
